@@ -16,6 +16,7 @@ Aplicativo Android para criação e gestão de personagens de RPG, utilizado com
 - SDK alvo: compileSdk/targetSdk 36
 
 ## Estrutura do código (resumo)
+```
 rpgApp/
 └─ app/src/main/java/com/example/myapplication/
 ├─ controller/ # MainActivity1..6 (etapas) + PersonagensDebugActivity
@@ -26,7 +27,7 @@ rpgApp/
 │ └─ repository/ # PersonagemRepository (orquestra o DAO)
 ├─ model/ # domínio: atributos, raças, classes, distribuição
 └─ ui/theme/ # theming e estilos
-
+```
 
 ## Domínio
 - Atributos: Força, Destreza, Constituição, Inteligência, Sabedoria, Carisma.
